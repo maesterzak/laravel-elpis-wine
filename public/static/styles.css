@@ -1,0 +1,274 @@
+body{
+    
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 
+    Roboto;
+    background: white;
+}
+a:hover{
+    color: orange;
+}
+.color-1{
+    background: #A90020;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h4{
+    color: #46050A;
+    font-family: 
+    Righteous;
+}
+.medium-font{
+    font-size: medium;
+}
+.text-2{
+    font-size: 3em;
+    font-family: 
+    Roboto;
+}
+.text-3{
+    font-size: 2em;
+    font-family: Roboto;
+}
+header{
+    
+    
+    
+}
+.header-name{
+    color: #46050A;
+    font-size: xx-large;
+    font-family: 
+    Ribeye;
+}
+.nav-links{
+    font-family: Righteous;
+}
+footer{
+    background: #46050A;
+    width: 100%;
+    overflow: hidden;
+    font-size: larger;
+}
+nav{
+    background: #A90020;
+    height: 5vh;
+    width: 100%;
+}
+.section-x{
+    height: auto;
+}
+.section-x-d{
+    height: 80vh;
+}
+.section-x-2{
+    width: 80%;
+    height: 80%;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.section-x-3{
+   
+    min-height: 80%;
+    background: white;
+    
+}
+.section-x-4{
+   
+    height: auto;
+    width: 100vw;
+    object-fit: contain;
+    background: white;
+    
+}
+.section-x-6{
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.section-x-5{
+    min-height: 30%;
+    background: #A90020;
+    width: 110%;
+    right: -20%;
+    position: absolute;
+    border-radius: 15px;
+}
+.button-2{
+    border-radius: 5px;
+    width: 8em;
+    background: unset;
+    border: solid 2px white;
+    color: white;
+    height: 2em;
+    font-family: 
+    Roboto;
+}
+.button-3{
+    border-radius: 5px;
+    width: 8em;
+    background: #A90020;
+    border: solid 2px white;
+    color: white;
+    height: 2em;
+    font-family: 
+    Roboto;
+}
+.add-cart-btn{
+    height: 1.5em;
+    font-size: small;
+    background: #A90020;
+    color: white;
+    font-weight: normal;
+}
+.search-btn{
+    background: #A90020;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+}
+.register-btn{
+    background: unset;
+    border-radius: 5px;
+    border-color: #A90020;
+    height: 2em;
+    color: #A90020;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.login-btn{
+    background: #A90020;
+    color: white;
+    border-radius: 5px;
+    height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+input{
+    width: 100%;
+    height: 100%;
+}
+.searchform{
+    height: 8vh;
+    width: 100%;
+}
+input{
+    border-radius: 10px;
+}
+.subcribe-form input{
+    border: 2px solid white;
+    color: white;
+}
+.cart-counter{
+    border-radius: 50%;
+    width: 45%;
+    height: 45%;
+    background: #A90020;
+    right: -15%;
+
+}
+.l-btn{
+    text-decoration: none;
+}
+.wine-container{
+    height: 50%;
+    overflow: hidden;
+}
+.wine-container-image{
+    height: 100%;
+    width: 100%;
+}
+.wine-container-text{
+    height: 25%;
+}
+.body-2{
+    background: #A90020;
+    height: 100vh;
+    width: 100vw;
+
+}
+.register-card{
+    width: 60%;
+    height: 65%;
+    background: white;
+    border-radius: 15px;
+}
+.login-card{
+    width: 40%;
+    height: 30%;
+    background: white;
+    border-radius: 15px;
+}
+.socials-sec{
+    width: 20%;
+}
+.q-btn{
+    border: solid 1px #A90020;height:1.3em;width:1.3em
+}
+.winde-det{
+    font-weight: bolder;
+    color: #950028;
+}
+@media (max-width : 800px) {
+    .text-2{
+        font-size: 1.3em;
+
+    }
+    .text-3{
+        font-size: 0.7em;
+    }
+    .section-x-5{
+        right: unset;
+        width: 90%;
+        position: static;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        
+    }
+    .nav-links{
+        display: none;
+    }
+    .mobile-nav{
+        width: 70%;
+        background: #A90020;
+        color: white;
+        height: 70vh;
+    }
+    .header-name{
+        
+        font-size: large;
+        
+    }
+    .searchform{
+        height: 3vh;
+        width: 100%;
+    }
+    .searchform input{
+        border-radius: 12px;
+        
+    }
+    .register-btn{
+       
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+    .login-btn{
+       
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+    .socials-sec{
+        width: 50%;
+    }
+    .section-x-d{
+        height: 60vh;
+    }
+}
